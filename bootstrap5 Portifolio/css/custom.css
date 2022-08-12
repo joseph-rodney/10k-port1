@@ -1,3 +1,4 @@
+/* project variables */
 :root{
     --primary: #1f2235;
     --secondary:  #23253a;
@@ -5,20 +6,28 @@
     --light: #ffff;
     --card: #23253a;
 }
+/* end of project variables */
 
+/* CSS properties for the whole page */
 *{
     scroll-behavior: smooth;
     font-family: Poppins;
 }
+/* end of CSS properties for the whole page */
 
+/* CSS for the body */
 body{
     background: var(--secondary);
 }
+/* CSS for the body */
 
+/* CSS for the Navbar */
 .navbar-bg{
     background: var(--primary);
 }
+/* End of  CSS for the Navbar */
 
+/* Begining of the Home section CSS */
 .home-bg{
     background: var(--secondary);
 }
@@ -53,7 +62,9 @@ body{
     padding: 10px 30px 10px 30px;
     margin-left: 10px;
 }
+/* End of Home ection css */
 
+/* Begining of the home section CSS */
 .services-bg{
     background: var(--primary);
 }
@@ -73,7 +84,10 @@ body{
 .card-icon{
     color: var(--danger);
 }
+/* End of the Servuce Section CSS */
 
+
+/* Begining of the Footer section CSS */
 .footer .icons8{
     background: var(--primary);
     text-align: center;
@@ -83,3 +97,4 @@ body{
 .footer .icons8 > a {
     text-decoration: none;
 }
+/* End of the Footer Section CSS */
