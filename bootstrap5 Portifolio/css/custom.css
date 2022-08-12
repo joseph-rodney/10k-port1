@@ -4,9 +4,13 @@
     --danger:  #dc505c;
 }
 
-*html{
+html{
     scroll-behavior: smooth;
     font-family: Poppins;
+}
+
+body{
+    background: var(--secondary);
 }
 
 .navbar-bg{
@@ -15,4 +19,14 @@
 
 .home-bg{
     background: var(--secondary);
+}
+
+.footer .icons8{
+    background: var(--primary);
+    text-align: center;
+    color: var(--danger);
+}
+
+.footer .icons8 > a {
+    text-decoration: none;
 }
