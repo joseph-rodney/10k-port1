@@ -12,3 +12,7 @@
 .navbar-bg{
     background: var(--primary);
 }
+
+.home-bg{
+    background: var(--secondary);
+}
