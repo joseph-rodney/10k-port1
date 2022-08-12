@@ -3,9 +3,10 @@
     --secondary:  #23253a;
     --danger:  #dc505c;
     --light: #ffff;
+    --card: #23253a;
 }
 
-html{
+*{
     scroll-behavior: smooth;
     font-family: Poppins;
 }
@@ -51,6 +52,30 @@ body{
     border-radius: 3rem;
     padding: 10px 30px 10px 30px;
     margin-left: 10px;
+}
+
+.services-bg{
+    background: var(--primary);
+}
+
+.services-header{
+    margin-top: 10rem;
+}
+
+.services-header h5{
+    color: var(--danger);
+}
+
+.card-bg{
+    background-color: var(--card);
+}
+
+.card-icon{
+    color: var(--danger);
+}
+
+.card-icon .git{
+   
 }
 
 .footer .icons8{
