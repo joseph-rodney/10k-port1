@@ -1,0 +1,14 @@
+:root{
+    --primary: #1f2235;
+    --secondary:  #23253a;
+    --danger:  #dc505c;
+}
+
+*html{
+    scroll-behavior: smooth;
+    font-family: Poppins;
+}
+
+.navbar-bg{
+    background: var(--primary);
+}
