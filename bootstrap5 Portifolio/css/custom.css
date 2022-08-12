@@ -2,6 +2,7 @@
     --primary: #1f2235;
     --secondary:  #23253a;
     --danger:  #dc505c;
+    --light: #ffff;
 }
 
 html{
@@ -19,6 +20,32 @@ body{
 
 .home-bg{
     background: var(--secondary);
+}
+
+.home-icons{
+    margin-top: 3rem;
+}
+
+.icon-rad{
+    border: 1px solid var(--danger);
+    border-radius: 60%;
+    padding: 0.5em 0.6em;
+}
+
+.profile-btn{
+    background: none;
+    border: 1px solid var(--danger);
+    border-radius: 3rem;
+    padding: 8px 30px 8px 30px;
+    color: var(--light);
+}
+
+.play-btn{
+    background: var(--danger);
+    border: none;
+    border-radius: 3rem;
+    padding: 10px 30px 10px 30px;
+    margin-left: 10px;
 }
 
 .footer .icons8{
