@@ -23,13 +23,18 @@ body{
 }
 
 .home-icons{
-    margin-top: 3rem;
+    margin-top: 10rem;
 }
 
 .icon-rad{
     border: 1px solid var(--danger);
     border-radius: 60%;
     padding: 0.5em 0.6em;
+}
+
+.home-img{
+    display: block;
+    margin: auto;
 }
 
 .profile-btn{
