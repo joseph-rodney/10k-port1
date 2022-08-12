@@ -74,10 +74,6 @@ body{
     color: var(--danger);
 }
 
-.card-icon .git{
-   
-}
-
 .footer .icons8{
     background: var(--primary);
     text-align: center;
