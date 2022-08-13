@@ -64,7 +64,7 @@ body{
 }
 /* End of Home ection css */
 
-/* Begining of the home section CSS */
+/* Begining of the Service section CSS */
 .services-bg{
     background: var(--primary);
 }
@@ -86,10 +86,33 @@ body{
 }
 /* End of the Servuce Section CSS */
 
+/* Begining of About Us section CSS */
+.about-bg{
+    background: var(--secondary);
+}
+
+.about-header{
+    margin-top: 10rem;
+}
+
+.about-header h5{
+    color: var(--danger);
+}
+
+.about-sub{
+    color: var(--danger);
+}
+/* End of About Us section CSS */
 
 /* Begining of the Footer section CSS */
-.footer .icons8{
+.footer-bg{
     background: var(--primary);
+}
+
+.foot-note{
+    text-align: center;
+}
+.footer .icons8{
     text-align: center;
     color: var(--danger);
 }
