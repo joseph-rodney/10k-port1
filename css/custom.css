@@ -1,0 +1,123 @@
+/* project variables */
+:root{
+    --primary: #1f2235;
+    --secondary:  #23253a;
+    --danger:  #dc505c;
+    --light: #ffff;
+    --card: #23253a;
+}
+/* end of project variables */
+
+/* CSS properties for the whole page */
+*{
+    scroll-behavior: smooth;
+    font-family: Poppins;
+}
+/* end of CSS properties for the whole page */
+
+/* CSS for the body */
+body{
+    background: var(--secondary);
+}
+/* CSS for the body */
+
+/* CSS for the Navbar */
+.navbar-bg{
+    background: var(--primary);
+}
+/* End of  CSS for the Navbar */
+
+/* Begining of the Home section CSS */
+.home-bg{
+    background: var(--secondary);
+}
+
+.home-icons{
+    margin-top: 10rem;
+}
+
+.icon-rad{
+    border: 1px solid var(--danger);
+    border-radius: 60%;
+    padding: 0.5em 0.6em;
+}
+
+.home-img{
+    display: block;
+    margin: auto;
+}
+
+.profile-btn{
+    background: none;
+    border: 1px solid var(--danger);
+    border-radius: 3rem;
+    padding: 8px 30px 8px 30px;
+    color: var(--light);
+}
+
+.play-btn{
+    background: var(--danger);
+    border: none;
+    border-radius: 3rem;
+    padding: 10px 30px 10px 30px;
+    margin-left: 10px;
+}
+/* End of Home ection css */
+
+/* Begining of the Service section CSS */
+.services-bg{
+    background: var(--primary);
+}
+
+.services-header{
+    margin-top: 10rem;
+}
+
+.services-header h5{
+    color: var(--danger);
+}
+
+.card-bg{
+    background-color: var(--card);
+}
+
+.card-icon{
+    color: var(--danger);
+}
+/* End of the Servuce Section CSS */
+
+/* Begining of About Us section CSS */
+.about-bg{
+    background: var(--secondary);
+}
+
+.about-header{
+    margin-top: 10rem;
+}
+
+.about-header h5{
+    color: var(--danger);
+}
+
+.about-sub{
+    color: var(--danger);
+}
+/* End of About Us section CSS */
+
+/* Begining of the Footer section CSS */
+.footer-bg{
+    background: var(--primary);
+}
+
+.foot-note{
+    text-align: center;
+}
+.footer .icons8{
+    text-align: center;
+    color: var(--danger);
+}
+
+.footer .icons8 > a {
+    text-decoration: none;
+}
+/* End of the Footer Section CSS */
